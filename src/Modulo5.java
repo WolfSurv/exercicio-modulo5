@@ -7,9 +7,7 @@ public class Modulo5 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Olá! Seja bem vindo ao exercício do Módulo 5!");
-
         System.out.println("Por favor, informe os seus dados:");
-
         System.out.println("Nome completo:");
         String nome = scanner.nextLine();
 
@@ -25,9 +23,9 @@ public class Modulo5 {
         System.out.println("Altura:");
         Double altura = scanner.nextDouble();
 
+        scanner.nextLine();
         System.out.println("Estado Civil:");
         String estadocivil = scanner.nextLine();
-        //Professor, está ocorrendo um erro aqui. Não está lendo a String "estado civil". Mas não consigo entender o que está errado...
 
         scanner.close();
 
